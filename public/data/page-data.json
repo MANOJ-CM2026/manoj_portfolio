@@ -1,0 +1,119 @@
+{
+  "contactBar": {
+    "contactItems": [
+      {
+        "type": "email",
+        "label": "manojanbu70@gmail.com",
+        "icon": "/images/icon/mail-icon.svg",
+        "link": "mailto:manojanbu70@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+91-95145-47030",
+        "icon": "/images/icon/call-icon.svg",
+        "link": "tel:+919514547030"
+      },
+      {
+        "type": "website",
+        "label": "linkedin.com/in/manoj-a",
+        "icon": "/images/icon/web-icon.svg",
+        "link": "http://linkedin.com/in/manoj-a"
+      }
+    ],
+    "socialItems": [
+      {
+        "platform": "linkedin",
+        "icon": "/images/icon/linkedin-icon.svg",
+        "link": "http://linkedin.com/in/manoj-a"
+      }
+    ]
+  },
+  "educationData": {
+    "education": [
+      {
+        "title": "Nandha Engineering College, Erode - Expected Sep 2027",
+        "description": "Bachelor of Technology in Artificial Intelligence and Data Science. Relevant coursework: Robotics & IOT, AI, ML, Deep Learning, Computer Vision, Algorithms, MEARN Stack."
+      },
+      {
+        "title": "Government Higher Secondary School, Erode",
+        "description": "High School."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Python & C",
+        "icons": [
+          "/images/home/education-skill/python.svg",
+          "/images/home/education-skill/c.svg"
+        ],
+        "rating": 5
+      },
+      {
+        "name": "React & TypeScript",
+        "icons": [
+          "/images/home/education-skill/react.svg",
+          "/images/home/education-skill/typescript.svg"
+        ],
+        "rating": 4
+      },
+      {
+        "name": "TensorFlow & PyTorch",
+        "icons": [
+          "/images/home/education-skill/tensorflow.svg",
+          "/images/home/education-skill/pytorch.svg"
+        ],
+        "rating": 4
+      },
+      {
+        "name": "IoT & Arduino",
+        "icons": [
+          "/images/home/education-skill/arduino.svg"
+        ],
+        "rating": 5
+      },
+      {
+        "name": "SQL & Pandas",
+        "icons": [
+          "/images/home/education-skill/mysql.svg",
+          "/images/home/education-skill/pandas.svg"
+        ],
+        "rating": 4
+      },
+      {
+        "name": "OpenCV",
+        "icons": [
+          "/images/home/education-skill/opencv.svg"
+        ],
+        "rating": 4
+      }
+    ]
+  },
+  "contactLinks": {
+    "socialLinks": [
+      {
+        "title": "LinkedIn",
+        "href": "https://www.linkedin.com/in/manoj-a-/"
+      },
+      {
+        "title": "GitHub",
+        "href": "https://github.com/MANOJ-CM2026"
+      },
+      {
+        "title": "Instagram",
+        "href": "https://instagram.com/soul__reaperz"
+      }
+    ],
+    "contactInfo": [
+      {
+        "type": "email",
+        "label": "manojanbu70@gmail.com",
+        "link": "mailto:manojanbu70@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "+91-95145-47030",
+        "link": "tel:+919514547030"
+      }
+    ]
+  }
+}

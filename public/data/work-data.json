@@ -1,0 +1,40 @@
+{
+  "workData": [
+    {
+      "image": "/images/work/work-img-1.jpg",
+      "title": "Smart Self-Sustaining EV",
+      "client": "Patent Pending",
+      "slug": "#!"
+    },
+    {
+      "image": "/images/work/work-img-2.jpg",
+      "title": "Autonomous Serving Robot",
+      "client": "Academic Project",
+      "slug": "#!"
+    },
+    {
+      "image": "/images/work/work-img-3.jpg",
+      "title": "Automated Pani Puri Machine",
+      "client": "Patent Published",
+      "slug": "#!"
+    },
+    {
+      "image": "/images/work/work-img-4.jpg",
+      "title": "Vehicle Assistant Mobile App",
+      "client": "MEARN Stack Project",
+      "slug": "#!"
+    },
+    {
+      "image": "/images/work/work-img-5.jpg",
+      "title": "AI Forest Fire Detection System",
+      "client": "AI Project",
+      "slug": "#!"
+    },
+    {
+      "image": "/images/work/work-img-6.jpg",
+      "title": "AI Forest Surveillance System",
+      "client": "AI Project",
+      "slug": "#!"
+    }
+  ]
+}
