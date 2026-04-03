@@ -12,6 +12,11 @@ body {
   height: 100%;
 }
 
+/* Hide Next.js dev indicator */
+nextjs-portal {
+  display: none !important;
+}
+
 button::before {
   content: "";
   position: absolute;

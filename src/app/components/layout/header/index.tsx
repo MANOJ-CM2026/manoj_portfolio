@@ -5,7 +5,12 @@ import Logo from "../logo";
 
 const Header = () => {
     const handleDownloadPDF = () => {
-        window.print();
+        const link = document.createElement("a");
+        link.href = "/resume/Manoj%20A%20edited%20resume.pdf";
+        link.download = "Manoj_Resume.pdf";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
     };
     return (
         <header className="navbar top-0 left-0 z-999 w-full absolute">

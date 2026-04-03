@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const [contactData, setContactData] = useState<any>(null);
@@ -40,24 +41,33 @@ const Contact = () => {
   const handleSubmit = async (e: any) => {
     e.preventDefault();
 
-    fetch("https://formsubmit.co/ajax/manojanbu70@gmail.com", {
-      method: "POST",
-      headers: { "Content-type": "application/json" },
-      body: JSON.stringify({
-        name: formData.name,
-        number: formData.number,
-        email: formData.email,
-        message: formData.message,
-      }),
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        setSubmitted(data.success);
-        reset();
-      })
-      .catch((error) => {
-        console.log(error.message);
-      });
+    emailjs
+      .send(
+        "service_1entoq8", 
+        "template_6zd5ao4", 
+        {
+          from_name: formData.name,
+          to_name: "Manoj",
+          reply_to: formData.email,
+          message: formData.message,
+          email: formData.email,
+          number: formData.number,
+          phone: formData.number,
+          phone_number: formData.number,
+          contact_number: formData.number,
+          name: formData.name,
+        },
+        "pFbCSHGSqag1TBRgz"
+      )
+      .then(
+        (response) => {
+          setSubmitted(true);
+          reset();
+        },
+        (error) => {
+          console.error("FAILED...", error);
+        }
+      );
   };
   const handleChange = (e: any) => {
     const { name, value } = e.target;
